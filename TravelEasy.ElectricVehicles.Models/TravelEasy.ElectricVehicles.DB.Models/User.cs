@@ -22,12 +22,18 @@ namespace TravelEasy.ElectricVehicles.DB.Models
         public string? Username { get; set; }
 
         [Required]
+        [EmailAddress]
         public string? Email { get; set; }
 
         [Required]
+        [DataType(DataType.Password)]
+        [StringLength(20, MinimumLength = 8)]
         public string? Password { get; set; }
 
         [Required]
+        [StringLength(20, MinimumLength = 10)]
         public string? PhoneNumber { get; set; }
+
+        //[StringLength(number, MinimumLength = number)] 
     }
 }
