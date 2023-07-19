@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TravelEasy.ElectricVehicles.DB.Models
 {
-    internal class User
+    public class User
     {
         [Key]
         public int Id { get; set; }
@@ -19,7 +19,7 @@ namespace TravelEasy.ElectricVehicles.DB.Models
         public string? LastName { get; set; }
 
         [Required]
-        public string? Username { get; set; }
+        public string? Username { get; set; } 
 
         [Required]
         [EmailAddress]
