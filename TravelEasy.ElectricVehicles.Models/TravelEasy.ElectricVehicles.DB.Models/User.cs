@@ -21,9 +21,7 @@ namespace TravelEasy.ElectricVehicles.DB.Models
 
         [Required]
         [DataType(DataType.Password)]
-        [StringLength(20, MinimumLength = 8)]
         public string? Password { get; set; }
 
-        //[StringLength(number, MinimumLength = number)] 
     }
 }
