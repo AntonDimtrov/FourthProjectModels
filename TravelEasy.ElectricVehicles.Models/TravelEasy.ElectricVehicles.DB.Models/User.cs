@@ -11,13 +11,7 @@ namespace TravelEasy.ElectricVehicles.DB.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Required]
-        public string? FirstName { get; set; }
-
-        [Required]
-        public string? LastName { get; set; }
-
+       
         [Required]
         public string? Username { get; set; } 
 
@@ -29,10 +23,6 @@ namespace TravelEasy.ElectricVehicles.DB.Models
         [DataType(DataType.Password)]
         [StringLength(20, MinimumLength = 8)]
         public string? Password { get; set; }
-
-        [Required]
-        [StringLength(20, MinimumLength = 10)]
-        public string? PhoneNumber { get; set; }
 
         //[StringLength(number, MinimumLength = number)] 
     }
