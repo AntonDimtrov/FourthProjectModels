@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>TravelEasy.ElectricVehicles.DB.Models</Title>
+    <Title>TravelEasy.EV.DB.Models.Diesel</Title>
     <PackageId></PackageId>
-    <Version>1.0.2</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
 </Project>

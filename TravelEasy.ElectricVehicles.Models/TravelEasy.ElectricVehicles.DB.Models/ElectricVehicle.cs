@@ -21,5 +21,8 @@ namespace TravelEasy.ElectricVehicles.DB.Models
 
         [Required]
         public decimal PricePerDay { get; set; }
+
+        [Required]
+        public bool IsBooked { get; set; } = false; 
     }
 }
