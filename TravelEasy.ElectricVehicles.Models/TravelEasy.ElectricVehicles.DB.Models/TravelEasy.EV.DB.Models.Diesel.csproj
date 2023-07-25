@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>TravelEasy.EV.DB.Models.Diesel</Title>
-    <PackageId></PackageId>
-    <Version>2.2.0</Version>
+    <PackageId>TravelEasy.EV.DB.Models.Diezel</PackageId>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
