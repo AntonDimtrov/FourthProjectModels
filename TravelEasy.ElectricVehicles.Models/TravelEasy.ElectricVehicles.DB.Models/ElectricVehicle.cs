@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace TravelEasy.ElectricVehicles.DB.Models
 {
@@ -24,6 +23,6 @@ namespace TravelEasy.ElectricVehicles.DB.Models
         public decimal PricePerDay { get; set; }
 
         [Required]
-        public bool IsBooked { get; set; } = false;
+        public string? ImageURL { get; set; }
     }
 }
