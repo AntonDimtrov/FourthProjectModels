@@ -9,6 +9,14 @@ namespace TravelEasy.ElectricVehicles.DB.Models
 {
     public class User
     {
+        public User() { }
+        public User(string? username, string? email, string? password)
+        {
+            Username = username;
+            Email = email;
+            Password = password;
+        }
+
         [Key]
         public int Id { get; set; }
        
